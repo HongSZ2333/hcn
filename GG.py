@@ -32,7 +32,7 @@ def on_user_info(server, info):
         server.execute(f'kill {player_name}')
         
 def on_server_startup(server, old_module):
-    server.logger.info('TNT Plugin is loaded.')
+    server.logger.info('GG Plugin is loaded.')
 
 def on_server_stop(server, old_module):
-    server.logger.info('TNT Plugin is unloaded.')
+    server.logger.info('GG Plugin is unloaded.')
